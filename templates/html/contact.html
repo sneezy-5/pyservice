@@ -1,0 +1,151 @@
+{% extends 'html/base.html'%}
+
+
+{% load widget_tweaks %}
+
+{% block title %}
+
+    Contact
+
+{% endblock%}
+
+	{% load static %}
+{% block style %}
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/contact.css' %}">
+    <link  rel="stylesheet" href="{% static 'fontawesome-free-5.14.0-web/css/all.min.css' %}">
+{% endblock %}
+
+{% block contend %}
+
+<div class="grand-parents"><!--parent des parents-icones et formulaire-->
+
+
+    <div class="parents-icones">
+
+        <i class="fa fa-phone-alt fa-2x" id="phone"></i>
+        <p class="text-phone"><span>PHONE</span><br>
+            Tél: 00 (225) 22 45 82 11/00 (225) 88 72 56 99 
+        </p>
+
+        <i class="fa fa-map-marker-alt fa-2x" id="maps"></i>
+        <p class="text-maps"><span>ADDRESS</span><br>
+            Abidjan Cocody - Angré 8ème tranche
+        </p>
+
+        <i class="fa fa-envelope-open-text fa-2x" id="mail"></i>
+        <p class="text-mail">
+           <span>EMAIL</span><br>
+           pyramideservice02@gmail.com 
+        </p>
+    </div>
+
+      <div class="form-parent">
+        <form class="form" method="post" id="form">
+            <h3>ENVOYER UN MESSAGE</h3>
+                
+         {% csrf_token %}
+         <span id="error"></span>
+         <div class="form-group  {% if form.nomPrenom.errors %}has-warning has-feedback{% endif %}">
+            {% render_field form.nomPrenom  placeholder=" Nom et Prenom"  id="cas1"%}
+        </div>
+        
+         <span id="error2"></span>
+         <div class="form-group  {% if form.email.errors %}has-warning has-feedback{% endif %}">
+            {% render_field form.Email  placeholder=" Votre Email" id="cas2"%}
+        </div>
+
+         <span id="error3"></span>
+         <div class="form-group  {% if form.sujet.errors %}has-warning has-feedback{% endif %}">
+            {% render_field form.sujet  placeholder=" Sujet " id="cas3"%}
+        </div>
+         <span id="error4"></span>
+         <div class="form-group  {% if form.message.errors %}has-warning has-feedback{% endif %}">
+            {% render_field form.message  placeholder=" Message" id="cas4"%}
+        </div>
+         
+         <input type="submit" value="envoyer" >
+
+
+          
+        </form>
+     </div>
+
+     <script type="text/javascript">
+                        
+                            
+                    
+        let myform=document.getElementById('form');
+        let input1= document.getElementById('cas1');
+        let input2= document.getElementById('cas2');
+        let input3= document.getElementById('cas3');
+        let input4= document.getElementById('cas4');
+        let myerror= document.getElementById('error');
+        let myerrors= document.getElementById('error2');
+        let myerrore= document.getElementById('error3');
+        let myerroro= document.getElementById('error4');
+        let emailReg = new RegExp(/^([\w-\.]+)@((?:[\w]+\.)+)([a-zA-Z]{2,4})/i);
+        let regexName = /^([a-zA-Z-\s])+$/i
+
+        myform.addEventListener('submit', function(e){
+            if(input1.value == ""){
+                e.preventDefault();
+                myerror.innerHTML= "veillez rensigner un nom";
+                myerror.style.color = 'red'
+                input1.style.border = "1px red solid";
+            }else if(regexName.test(input1.value)== false){
+                myerror.innerHTML= "veillez renseigner un nom valide";
+                myerror.style.color= 'red';
+                input1.style.border = "1px red solid";
+                e.preventDefault();
+            }
+
+
+            if(input2.value == ""){
+                e.preventDefault();
+                myerrors.innerHTML= "veillez rensigner un email";
+                myerrors.style.color = 'red'
+                input2.style.border = "1px red solid";
+            }else if(emailReg.test(input2.value)== false){
+                myerrors.innerHTML= "veillez renseigner une email valide";
+                myerrors.style.color= "red"
+                input2.style.border = "1px red dashed";
+                e.preventDefault();
+            }
+
+
+            if(input3.value == ""){
+                e.preventDefault();
+                myerrore.innerHTML= "veillez rensigner un sujet";
+                myerrore.style.color = 'red';
+                myerrore.style.border = "1px red solid";
+            }
+
+
+            if(input4.value == ""){
+                e.preventDefault();
+                myerroro.innerHTML= "veillez rensigner un mesage";
+                myerroro.style.color = 'red';
+                myerroro.style.border = "1px red solid";
+            }
+        
+        });
+
+    
+
+</script>
+
+{% if errors %}
+<div>
+{% for key, error in errors %}
+{% autoescape off %}
+    {{ error }}
+{% endautoescape %}
+{% endfor %}
+</div>
+{% endif %}
+ </div>
+</div>
+
+
+{% endblock %}

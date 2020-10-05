@@ -1,0 +1,196 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:aliceblue;
+    margin:0;
+    padding:0;
+}
+
+.pere{
+display:flex;
+flex-direction:column;
+
+}
+
+.header{
+background:#ffffff;
+height:50px;
+width:400px;
+position:absolute;
+display:flex;
+justify-content:center;
+align-items:center;
+top:50px;
+z-index:5000;
+/*border-top:2px solid #ffffff;
+border-right:2px solid #ffffff;
+border-bottom:2px solid #ffffff;*/
+}
+
+.header a{
+  margin:20px;
+  text-decoration:none;
+  padding:5px;
+  color:#161616;
+  font-weight:600
+
+}
+
+.header a:hover{
+  color:#23bef9;
+  transition:0.3s
+}
+
+
+
+.header img{
+  margin-right:80px
+}
+
+/*footer*/
+
+footer{
+	height:500px;
+	display:-webkit-box;
+	display:-moz-flexbox;
+	display:flex;
+	-webkit-box-align:center;
+		-moz-flex-align:center;
+			align-items:center;
+	font-family:sans-serif;
+	font-size:16px;
+	color:#acacac;
+	line-height:2;;
+	background-color:#343434;
+	bottom:0;
+	z-index:1;
+	top:5px;
+	width:100%;
+	margin-top:0px;
+	z-index:8
+  
+  }
+  
+  footer .bars{
+  bottom:0;
+  z-index:9;
+  display:flex;
+  margin-top:100px;
+  margin-left:31px
+  }
+  
+  .bars div{
+	width:200px;
+	margin-top:-150px;
+	margin-left:70px;
+	line-height:1.5;
+	font-family:sans-serif;
+	font-size:15px;
+	letter-spacing:1px;
+	z-index:10
+  }
+  
+  .bars strong{
+	color:white;
+  }
+  
+  .bars span{
+	color:#ffffff
+  }
+  
+  footer .img{
+	z-index:1;
+	margin-top:0px
+  }
+
+ 	
+	/*footer*/
+
+	footer{
+		height:500px;
+		display:-webkit-box;
+		display:-moz-flexbox;
+		display:flex;
+		-webkit-box-align:center;
+			-moz-flex-align:center;
+				align-items:center;
+		font-family:sans-serif;
+		font-size:16px;
+		color:#acacac;
+		line-height:2;;
+		background-color:#343434;
+		bottom:0;
+		z-index:1;
+		top:5px;
+		width:100%;
+		margin-top:501px;
+		z-index:8
+	  
+	  }
+	  
+	  footer .bars{
+	  bottom:0;
+	  z-index:9;
+	  display:flex;
+	  margin-top:100px;
+	  margin-left:31px
+	  }
+	  
+	  .bars div{
+		width:200px;
+		margin-top:-155px;
+		margin-left:70px;
+		line-height:1.5;
+		font-family:sans-serif;
+		font-size:15px;
+		letter-spacing:1px;
+		z-index:10
+	  }
+	  
+	  .bars strong{
+		color:white;
+	  }
+	  
+	  .bars span{
+		color:#ffffff
+	  }
+	  
+	  footer .img{
+		z-index:1;
+		margin-top:0px
+	  }
+	  
+	  footer p{
+		position:absolute;
+		top:3080px;
+		font-size:30px;
+		left:100px;
+		font-weight:600;
+		z-index:500;
+	  }
+	  
+	  footer p strong{
+		color: #23bef9;
+		}
+	  
+	  footer .sign{
+		position:absolute;
+	   width:400px;
+	   top:3500px;
+	   left:100px;
+		 line-height:1.5;
+		font-family:sans-serif;
+		font-size:12px;
+		letter-spacing:1px;
+		z-index:20
+	  }
+	  
+	  .sign span{
+		color:#67b8ff
+	  }
+	  
+	  

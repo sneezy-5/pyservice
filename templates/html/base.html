@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block style %}{% endblock %}
+</head>
+<body>
+    <div class="pere">
+        <div class="header">
+           <img src="{% static 'img/logo2.png' %}" height="50" width="50">
+            <a href="{% url 'acceuil'%}" id="lien1">Acceuil</a>
+            <a href="{% url 'contact'%}">Contact</a>
+        </div>
+
+            
+        {% block contend %}{% endblock %}
+
+        <footer>
+
+          <p><strong>PYRAMIDE</strong> SERVICES</p>
+         <div class="bars">
+      
+          <div>
+              
+              <strong>Entreprise poly-activité</strong><br>
+              Siège social :   Abidjan Cocody - Angré 8ème tranche<br>
+              Mobile : +225 22 45 82 11
+              Mobile : +225 88 72 56 99 
+              Email : pyramideservice02@gmail.com  
+      
+           </div>
+           
+           <div>
+             <span>EXCUTION DE PROJET</span><br>
+             Dans un souci perpétuel de respecter la relation Client – Opérateur, la société s’est fondée sur le Respect stricte de son Programme et Planning d’exécution très bien défini.
+           </div>
+      
+           <div>
+            <span>SECURITE</span><br>
+            Nous sommes strictes sur les principes fondamentaux de sécurité par non seulement le choix de nos collaborateurs mais aussi l'obligation d'utilisation d'EPI sur nos chantiers et surtout l'entretien permanent d'un esprit d'equipe.
+           </div>
+      
+           <div>
+            <span>NOS ATOUTS</span><br>
+            Rigueur – Dynamisme – Respect de la clientèle et du planning – Compétence.
+           </div>
+         </div>
+      
+         <div class="sign">
+          © <span>ESO-DEV</span> 2020 | Agence marketing digital Abidjan - Création de sites internet - Référencement SEO - Webmarketing - Réseaux Sociaux
+        </div>
+        </footer>
+
+    </div>
+</body>
+</html>

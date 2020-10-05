@@ -1,0 +1,1822 @@
+.header #lien1:nth-child(){
+	color:#23bef9
+  }
+
+.banniere{
+	background:linear-gradient(to right, #00000059,#00000059),center/cover no-repeat url('/static/img/acceuil.jpg');
+	background-attachment:fixed;
+	height:600px;
+	left:0;
+	right:0;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+	position:fixed;
+	z-index:6;
+	filter:contrast(1.1)
+	}
+	
+	 
+	  .titre{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		margin-top:400px;
+		margin-right:20px;
+		line-height:1.5;
+		color:#ffffff;
+		animation:affiche2 4s ;
+		}
+	
+		@keyframes affiche2{
+			0%{
+				opacity:0;
+			}
+	
+			100%{
+				opacity:1;
+			}
+		}
+	
+		
+		.titre span{
+		font-size:40px;;
+		font-weight:600
+		}
+		
+		.titre strong{
+		color:#22bdf9
+		}
+		
+		.titre p{
+		font-size:20px;
+		font-weight:600;
+		margin-top:-10px
+		}
+		
+		.titre nav{
+		font-size:13px;
+		margin-top:-25px;
+		}
+	
+	
+		.text{
+			position:absolute;
+		   width:500px;
+		   font-size:19px;
+		   top:150px;
+		   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		   font-style:italic;
+		   color:white;
+		   line-height:1.3;
+		   animation:affiche 4s;
+		  left:100px;
+		
+		  
+		}
+	
+		@keyframes affiche{
+			0%{
+				opacity:0;
+			}
+	
+			100%{
+				opacity:1;
+			}
+		}
+	
+		.text span{
+	   font-size:30px;
+	   font-style:normal;
+	   font-weight:500
+		}
+	
+		.text span::before{
+			content:'';
+			position:absolute;
+			height:5px;
+			width:100px;
+			background:#ffffff;
+			top:-5px
+		}
+	  
+	   .text strong{
+		   color:#23bef9
+	   }
+	
+	
+	   .centre{
+		background: #40caff;
+		height: 2005px;
+		z-index: 7;
+		margin-top: 600px;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		align-items:center;
+	   white-space:none
+	   }
+	
+	   .centre div{
+		   height:25%
+	   }
+	
+	   .cas1{
+		   width:50%;
+		   background:center/cover no-repeat url('/static/img/batiment.jpg')
+	   }
+	
+		  .cas2{
+		   width:50%;
+		   background:#47ee1e
+	   }
+	
+		  .cas3{
+		   width:50%;
+		   background:#255fc9
+	   }
+	
+		  .cas4{
+		   width:50%;
+		background:center/cover no-repeat url('/static/img/electricite.jpg')
+	   }
+	
+		  .cas5{
+		   width:50%;
+		   background:center/cover no-repeat url('/static/img/maintenance.jpg')
+	   }
+	
+		  .cas6{
+		   width:50%;
+		   background:red
+	   }
+	
+		  .cas7{
+		   width:50%;
+		   background:#ee7d1a
+	   }
+	
+	
+		  .cas8{
+		   width:50%;
+		background:center/cover no-repeat url('/static/img/plombier.jpg')
+	   }
+	
+	
+		  .cas9{
+		   width:50%;
+		   background:center/cover no-repeat url('/static/img/voiture1.jpg')
+	   }
+	
+	   .cas9 .coller{
+		   height: 100%;
+		   width: 350px;
+		   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+		   margin-left:auto
+	   }
+	
+	
+			 .cas10{
+		   width:50%;
+		   background:#000000
+	   }
+	
+	/*contenue*/
+	
+	   .cas2{
+		background:#23bef9;
+		display: flex;
+		justify-content:center;
+		align-items:center;
+		font-size:18px;
+		line-height:1.5;
+		padding:50px
+	}
+	
+	.cas2 p{
+	font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#ffffff;
+	font-weight:300
+	}
+	
+	.cas2 p strong{
+		color:aliceblue;
+		display:flex;
+		justify-content:center;
+		font-size:30px
+	}
+	
+	.cas2 p span{
+		color: #ffffff;
+		font-weight:500;
+	}
+	
+	.cas2 p strong:after{
+		content:'';
+		position:absolute;
+		height:4px;
+		width:80px;
+		background:#ffffff;
+		z-index:1000;
+		top:705px;
+		left:970px;
+		transform:skewX(500deg)
+	}
+	
+	
+	.cas3{
+		background:#000000;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		 font-size:18px;
+			line-height:1.5;
+			padding:50px
+		}
+		
+		
+		.cas3 p{
+		font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		color:#ffffff;
+		font-weight:300;
+	
+		}
+		
+		.cas3 p strong{
+			color:aliceblue;
+			display:flex;
+			justify-content:center;
+		font-size:30px
+		}
+		
+		.cas3 p span{
+			color: #23bef9;
+		  text-decoration:none;
+		  font-weight:500
+		}
+		
+		.cas3 p a{
+			text-decoration:none;
+			border-bottom:2px solid #23bef9 
+		}
+		
+		.cas3 p strong:after{
+			content:'';
+			position:absolute;
+			height:4px;
+			width:80px;
+			background:#ffffff;
+			z-index:1000;
+			left:298px;
+			top:1168px;
+			transform:skewX(500deg)
+		}
+	
+	
+		.cas6{
+			background:#23bef9;
+			display: flex;
+			justify-content:center;
+		align-items:center;
+		 font-size:18px;
+			line-height:1.5;
+			padding:50px
+		}
+		
+		
+		.cas6 p{
+		font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		color:#ffffff;
+		font-weight:300
+		}
+		
+		.cas6 p strong{
+			color:aliceblue;
+			display:flex;
+			justify-content:center;
+			font-size:30px
+		}
+		
+		.cas6 p span{
+			color:#23bef9
+		}
+		
+		.cas6 p strong:after{
+			content:'';
+			position:absolute;
+			height:4px;
+			width:80px;
+			background:#ffffff;
+			z-index:1000;
+			left:970px;
+			top:1775px;
+			transform:skewX(500deg)
+		}
+	
+	
+		.cas7{
+			background:#000000;
+			display: flex;
+			 justify-content:center;
+			align-items:center;
+			 font-size:18px;
+			line-height:1.5;
+			padding:50px
+			}
+			
+			.cas7{
+			font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+			color:#ffffff;
+			font-weight:300
+			}
+			
+			.cas7 p strong{
+				color:aliceblue;
+				display:flex;
+				justify-content:center;
+				font-size:30px
+			}
+			
+			.cas7 p span{
+				color:#23bef9
+			}
+			
+			.cas7 p strong:after{
+				content:'';
+				position:absolute;
+				height:4px;
+				width:80px;
+				background:#ffffff;
+				z-index:1000;
+				top:2197px;
+				left:300px;
+				transform:skewX(500deg)
+			}
+	
+	
+			.cas10{
+				background:#23bef9;
+				display: flex;
+				 justify-content:center;
+			align-items:center;
+			 font-size:18px;
+			line-height:1.5;
+			padding:50px
+			}
+			
+			
+			.cas10 p{
+			font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+			color:#ffffff;
+			font-weight:300
+			}
+			
+			.cas10 p strong{
+				color:aliceblue;
+				display:flex;
+				justify-content:center;
+				font-size:30px
+			}
+			
+			.cas10 p span{
+				color:#23bef9
+			}
+			
+			.cas10 p strong:after{
+				content:'';
+				position:absolute;
+				height:4px;
+				width:80px;
+				background:#ffffff;
+				z-index:1000;
+				top:2765px;
+				left:975px;
+				transform:skewX(500deg)
+			}
+		
+		/*footer*/
+	
+		footer{
+			height:500px;
+			display:-webkit-box;
+			display:-moz-flexbox;
+			display:flex;
+			-webkit-box-align:center;
+				-moz-flex-align:center;
+					align-items:center;
+			font-family:sans-serif;
+			font-size:16px;
+			color:#acacac;
+			line-height:2;;
+			background-color:#343434;
+			bottom:0;
+			z-index:1;
+			top:5px;
+			width:100%;
+			margin-top:501px;
+			z-index:8
+		  
+		  }
+		  
+		  footer .bars{
+		  bottom:0;
+		  z-index:9;
+		  display:flex;
+		  margin-top:100px;
+		  margin-left:31px
+		  }
+		  
+		  .bars div{
+			width:200px;
+			margin-top:-155px;
+			margin-left:70px;
+			line-height:1.5;
+			font-family:sans-serif;
+			font-size:15px;
+			letter-spacing:1px;
+			z-index:10
+		  }
+		  
+		  .bars strong{
+			color:white;
+		  }
+		  
+		  .bars span{
+			color:#ffffff
+		  }
+		  
+		  footer .img{
+			z-index:1;
+			margin-top:0px
+		  }
+		  
+		  footer p{
+			position:absolute;
+			top:3080px;
+			font-size:30px;
+			left:100px;
+			font-weight:600;
+			z-index:500;
+		  }
+		  
+		  footer p strong{
+			color: #23bef9;
+			}
+		  
+		  footer .sign{
+			position:absolute;
+		   width:400px;
+		   top:3500px;
+		   left:100px;
+			 line-height:1.5;
+			font-family:sans-serif;
+			font-size:12px;
+			letter-spacing:1px;
+			z-index:20
+		  }
+		  
+		  .sign span{
+			color:#67b8ff
+		  }
+		  
+		  
+		  /*responsive*/
+	
+		  @media only screen and (max-width:1365px){
+	.cas2 p strong:after{
+		height:0px;
+		width:0px;
+	}
+	
+	.cas3 p strong:after{
+		height:0px;
+		width:0px;
+	}
+	
+	.cas6 p strong:after{
+		height:0px;
+		width:0px;
+	}
+	
+	.cas7 p strong:after{
+		height:0px;
+		width:0px;
+	}
+	
+	.cas10 p strong:after{
+		height:0px;
+		width:0px;
+	}
+	
+	}
+		  @media only screen and (max-width:1290px){
+			body{
+			height:900px
+			}
+	
+		  }
+	
+		  @media only screen and (max-width:1180px){
+	
+			  .cas3 p{
+				  font-size:17px;
+				  font-weight:400
+			  }
+			.cas3 p strong{
+			font-size:25px
+			 }
+	
+	
+			  .cas2 p{
+				  font-size:17px;
+				  font-weight:400
+			  }
+			.cas2 p strong{
+			font-size:25px
+			 }
+	
+	
+		   .cas6 p{
+				  font-size:17px;
+				  font-weight:400
+			  }
+			.cas6 p strong{
+			font-size:25px
+			 }
+	
+	
+		  .cas7 p{
+				  font-size:17px;
+				  font-weight:400
+			  }
+			.cas7 p strong{
+			font-size:25px
+			 }
+	
+		  .cas10 p{
+				  font-size:17px;
+				  font-weight:400
+			  }
+			.cas10 p strong{
+			font-size:25px
+			 }
+	
+	
+	
+		  }
+	
+		  @media only screen and (max-width:1070px){
+			  .cas3 p{
+				  font-size:17px;
+				  font-weight:400;
+				  margin-top:-5px
+			  }
+			.cas3 p strong{
+			font-size:25px;
+			position:absolute;
+			left:180px;
+			margin-top:10px
+			 }
+		  }
+			
+			
+			@media only screen and (max-width:1115px){
+			
+			footer .bars{
+			  bottom:0;
+			  z-index:1;
+			  display:flex;
+			  margin-top:100px;
+			  margin-left:-40px
+			  }
+			  footer p{
+			  position:absolute;
+			  font-size:30px;
+			  left:30px;
+			  font-weight:600
+			  }
+			  footer .sign{
+			  position:absolute;
+			   width:400px;
+			   bottom:80px;
+			   left:30px;
+			   line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:12px;
+			  letter-spacing:1px;
+			  }
+	
+			  .cas9 .coller{
+				  width:50%
+			  }
+			}
+			
+			
+			@media only screen and (max-width:1040px){
+			
+			 .bars div{
+			  width:200px;
+			  margin-top:-170px;
+			  margin-left:50px;
+			  line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:15px;
+			  letter-spacing:1px
+			  }
+			
+			  
+			  footer .bars{
+			  bottom:0;
+			  z-index:1;
+			  display:flex;
+			  margin-top:100px;
+			  margin-left:-40px
+			  }
+			  footer p{
+			  position:absolute;
+			  font-size:30px;
+			  left:10px;
+			  font-weight:600
+			  }
+			  footer .sign{
+			  position:absolute;
+			   width:400px;
+			   bottom:80px;
+			   left:10px;
+			   line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:12px;
+			  letter-spacing:1px;
+			  }
+			
+			}
+			
+			
+			
+			 @media only screen and (max-width:1010px){
+			
+			
+			
+			   .bars div{
+			  width:195px;
+			  margin-top:-170px;
+			  margin-left:50px;
+			  line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:15px;
+			  letter-spacing:1px
+			  }
+			
+			  
+			  footer .bars{
+			  bottom:0;
+			  z-index:1;
+			  display:flex;
+			  margin-top:100px;
+			  margin-left:-40px
+			  }
+			
+			
+			  footer p{
+			  position:absolute;
+			  font-size:30px;
+			  left:10px;
+			  font-weight:600
+			  }
+	
+	
+			  footer .sign{
+			  position:absolute;
+			   width:400px;
+			   bottom:80px;
+			   left:10px;
+			   line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:12px;
+			  letter-spacing:1px;
+			  }
+			
+			
+			  }
+	
+			  @media only screen and (max-width:995px){
+				  .banniere{
+					  position:static;
+					  background-attachment:unset
+				  }
+			   .centre{
+				   margin-top:0
+			   }
+	
+			   .cas1{
+				   display:none
+			   }
+	
+			   .cas2{
+				   width:100%;
+				   display:flex;
+				   flex-direction:row-reverse;
+			   
+			   }
+	
+			   .cas2 p{
+				   width:50%;
+			   }
+	
+			   .cas1-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/batiment.jpg');
+				   height:50%;
+				   padding:200px;
+				   margin-right:50px;
+			   }
+	
+			   .cas4{
+				   display:none
+			   }
+	
+			   .cas3{
+				   width:100%;
+				   display:flex;
+				   flex-direction:row-reverse;
+			   }
+	
+			   .cas3 p{
+				   width:50%;
+			   }
+	
+			   .cas3 p strong{
+				   margin-left:490px
+			   }
+	
+			   .cas2-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/electricite.jpg');
+				   height:50%;
+				   padding:200px;
+				   margin-right:50px;
+			   }
+	
+	
+			   .cas5{
+				   display:none
+			   }
+	
+				.cas6{
+				   width:100%;
+				   display:flex;
+				   flex-direction:row-reverse
+			   }
+	
+			   .cas6 p{
+				   width:50%;
+			   }
+	
+	
+			   .cas3-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   height:50%;
+				   padding:200px;
+				   margin-right:50px;
+			   }
+	
+	
+			   .cas8{
+				   display:none
+			   }
+	
+	
+				.cas7{
+				   width:100%;
+				   display:flex;
+				   flex-direction:row-reverse
+			   }
+	
+			   .cas7 p{
+				   width:50%;
+			   }
+	
+	
+			   .cas4-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/plombier.jpg');
+				   height:50%;
+				   padding:200px;
+				   margin-right:50px;
+			   }
+	
+	
+			  .cas9{
+				  display:none
+			  }
+	
+	 
+				.cas10{
+				   width:100%;
+				   display:flex;
+				   flex-direction:row-reverse
+			   }
+	
+			   .cas10 p{
+				   width:50%;
+			   }
+	
+	
+			   .cas5-respon{
+				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				   height:50%;
+				   padding:200px;
+				   margin-right:50px;
+				   width:50%
+			   }
+	
+			   .cas5-respon-coller{
+				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				   height:50%;
+				   padding:200px 200px 200px 48px;
+				margin-top:-200px;
+				width:30%
+			   }         
+	
+			  }
+	
+	
+			  @media only screen and (max-width:980px){
+				  .cas2 p{
+					  font-size:15px
+				  }
+	
+				  .cas3 p{
+					  font-size:15px
+				  }
+	
+				  .cas3 p strong{
+					  margin-left:470px
+				  }
+	
+				  .cas6 p{
+					  font-size:15px
+				  }
+	
+	
+				  .cas7 p{
+					  font-size:15px
+				  }
+	
+				  .cas10 p{
+					  font-size:15px
+				  }
+	
+				  .text{
+					  font-size:inherit
+				  }
+	
+				  .text span{
+					  font-size:25px
+				  }
+	
+				  .titre{
+					  font-size:20px
+				  }
+	
+				  .titre span{
+				 font-size:30px;;
+				   }
+		
+				 .titre strong{
+				  color:#22bdf9
+				   }
+		
+				  .titre p{
+				   font-size:15px;
+					font-weight:600;
+					margin-top:-10px
+				   }
+		
+				 .titre nav{
+				   font-size:10px;
+				  margin-top:-10px;
+		}
+	
+			  }
+			
+			
+			  @media only screen and (max-width:950px){
+			footer{
+			height:900px
+			}
+			
+				footer .bars{
+			  bottom:0;
+			  z-index:1;
+			  display:flex;
+			  margin-top:0px;
+			  margin-left:0px;
+			  flex-direction:column
+			  }
+			
+			
+			
+			   .bars div{ 
+			  width:700px;
+			  margin-top:50px;
+			  margin-left:-270px;
+			  line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:20px;
+			  letter-spacing:1px;
+			 
+			  }
+	
+	
+			  footer p{
+				  position:static;
+				  white-space:nowrap;
+				  margin-bottom:auto;
+				  margin-left:5px
+			  }
+	
+						footer .sign{
+				  position:static;
+			  margin-left:-700px;
+			  margin-top:auto
+			  }
+			
+			
+			  }
+	
+	
+			  @media only screen and (max-width:920px){
+				  .cas3 p strong{
+					  margin-left:420px;
+					  margin-top:auto
+				  }
+			  }
+	
+	
+			  @media only screen and (max-width:865px){
+	
+	
+	
+			   .cas2{
+				   width:100%;
+				   display:flex;
+				   flex-direction:column-reverse;
+			   
+			   }
+	
+			   .cas2 p{
+				   width:70%;
+				   height:65%
+			   }
+	
+			   .cas1-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/batiment.jpg');
+				   height:50%;
+				   padding:100px 400px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			   .cas3{
+				   width:100%;
+				   display:flex;
+				   flex-direction:column-reverse;
+	
+			   
+			   }
+	
+			   .cas3 p{
+				   width:70%;
+				   height:65%
+			   }
+	
+	
+			   .cas3 p strong{
+				   margin-left:170px
+			   }
+	
+			   .cas2-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/electricite.jpg');
+				   height:50%;
+				   padding:100px 400px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+	
+			   
+			   .cas6{
+				   width:100%;
+				   display:flex;
+				   flex-direction:column-reverse;
+			   
+			   
+			   }
+	
+			   .cas6 p{
+				   width:70%;
+				   height:65%
+			   }
+	
+			   .cas3-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   height:50%;
+				   padding:100px 400px 100px 100px;
+			   margin-right:5px
+			   }
+	
+			   .centre p{
+				   z-index:2000;
+			   }
+	
+	
+	
+	
+	 
+	
+	
+			  .cas7{
+				   width:100%;
+				   display:flex;
+				   flex-direction:column-reverse;
+		 
+			   
+			   }
+	
+			   .cas7 p{
+				   width:70%;
+				   height:65%
+			   }
+	
+			   .cas7 p strong{
+				   position:absolute;
+				   margin-left:170px
+			   }
+	
+			   .cas4-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/plombier.jpg');
+				   height:50%;
+				   padding:100px 400px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+	 
+				.cas10{
+				   width:100%;
+				   display:flex;
+				   flex-direction:column-reverse;
+		
+			   }
+	
+			   .cas10 p{
+			   width:70%;
+				   height:65%
+			   }
+	
+	
+			   .cas5-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				   height:50%;
+				   padding:100px 400px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			   .cas5-respon-coller{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				   height:50%;
+				   padding:20px 400px 100px 100px;
+				   margin-left:-100px;
+				   margin-top:0px
+			   } 
+	
+	
+			  }
+	
+	
+			  @media only screen and (max-width:861px){
+				  .centre p{
+					  width:auto
+				  }
+	
+				   .cas7 p strong{
+				   position:static;
+			   margin:0
+			   }
+	
+				.cas3 p strong{
+				   margin:0px;
+				   position:static;
+	
+			   }
+			  }
+	
+	
+			  @media only screen and (max-width:770px){
+				  .centre{
+					  height:auto
+				  }
+	
+				  footer{
+					  margin-top:auto
+				  }
+	
+	
+					.cas5-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				   height:50%;
+				   padding:100px 400px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			   .cas5-respon-coller{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				   height:20px;
+				   padding:20px 400px 100px 100px;
+				   position:relative;
+				   bottom:100px
+			   } 
+			  }
+			
+			
+			  @media only screen and (max-width:765px){
+			
+			
+				footer .bars{
+			  bottom:0;
+			  z-index:1;
+			  display:flex;
+			  margin-top:0px;
+			  margin-left:0px;
+			  flex-direction:column
+			  }
+			
+			
+			
+			   .bars div{ 
+			  width:600px;
+			  margin-top:50px;
+			  margin-left:-270px;
+			  line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:20px;
+			  letter-spacing:1px;
+			 
+			  }
+	
+	
+			  footer p{
+				  position:static;
+				  white-space:nowrap;
+				  margin-bottom:auto;
+				  margin-left:5px
+			  }
+	
+						footer .sign{
+				  position:static;
+			  margin-left:-600px;
+			  margin-top:auto;
+			  width:400px
+			  }
+			
+			
+			}
+	
+	
+			@media only screen and (max-width:640px){
+	
+	
+				.header{
+		height:420px;
+		top:0;
+		width:100%;
+		background:#3b3d3e;
+		display:flex;
+		flex-direction:column;
+		justify-content:flex-end
+	  }
+	
+	  .header img{
+		position:absolute;
+		top:0;
+		margin:0;
+		height:250px;
+		width:100%;
+	   
+	
+		 }
+	
+		 .header a{
+		   margin:10px;
+		   font-size:25px;
+		   margin-top:0px;
+		   background:#ffffff;
+		  padding:20px;
+		  padding-left:100px;
+		  padding-right:100px
+		 }
+	
+	
+	
+		 .banniere{
+			 margin-top:400px
+		 }
+	
+			
+			
+			}
+			
+			
+			
+			@media only screen and  (max-width:665px){
+			
+				footer .bars{
+			  bottom:0;
+			  z-index:1;
+			  display:flex;
+			  margin-top:0px;
+			  margin-left:0px;
+			  flex-direction:column
+			  }
+			
+			
+			
+			   .bars div{ 
+			  width:500px;
+			  margin-top:50px;
+			  margin-left:-270px;
+			  line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:20px;
+			  letter-spacing:1px;
+			 
+			  }
+	
+	
+			  footer p{
+				  position:static;
+				  white-space:nowrap;
+				  margin-bottom:auto;
+				  margin-left:5px
+			  }
+	
+						footer .sign{
+				  position:static;
+			  margin-left:-500px;
+			  margin-top:auto;
+			  width:400px
+			  }
+			
+	
+			
+			}
+	
+	
+			@media only screen and (max-width:610px){
+					.text{
+					  font-size:15px;
+					  left:15px
+				  }
+	
+				  .text span{
+					  font-size:25px
+				  }
+	
+				  .titre{
+					  font-size:20px
+				  }
+	
+				  .titre span{
+				 font-size:30px;;
+				   }
+		
+				 .titre strong{
+				  color:#23bef9
+				   }
+		
+				  .titre p{
+				   font-size:15px;
+					font-weight:600;
+					margin-top:-10px
+				   }
+		
+				 .titre nav{
+				   font-size:10px;
+				  margin-top:-10px;
+					 }
+	
+			   .centre p strong{
+			   
+				   font-size:22px
+			   }
+	
+			}
+	
+	
+			@media only screen and (max-width:614px){
+				 .header a{
+		font-size:16px
+			}
+	
+			}
+	
+	
+			@media only screen and (max-width:565px){
+			footer{
+			  height:900px
+			}
+			   .bars div{ 
+			  width:400px;
+			  margin-top:50px;
+			  line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:17px;
+			  letter-spacing:1px;
+			 
+			  }
+	
+	
+			  footer p{
+				  position:static;
+				  white-space:nowrap;
+				  margin-bottom:auto;
+				  margin-left:5px
+			  }
+	
+						footer .sign{
+				  position:static;
+			  margin-left:-400px;
+			  margin-top:auto;
+			  width:400px
+			  }
+			
+	
+			}
+	
+	
+	
+			
+			@media only screen and (max-width:536px){
+			
+	
+			
+			header ul{
+			 padding-left:120px; 
+			}
+			
+			
+			
+					  .cas1-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/batiment.jpg');
+				   height:50%;
+				   padding:100px 320px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			 .cas2-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/electricite.jpg');
+				   height:50%;
+				   padding:100px 320px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+			   .cas3-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   height:50%;
+				   padding:100px 320px 100px 100px;
+			   margin-right:5px
+			   }
+	
+	
+	
+			 .cas4-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('img/plombier.jpg');
+				   height:50%;
+				   padding:100px 320px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+			  .cas5-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				   height:50%;
+				   padding:100px 320px 30px 100px;
+				   margin-right:5px;
+			   }
+	   .cas5-respon-coller{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				   height:50%;
+				   padding:20px 320px 100px 100px;
+				   margin-left:-100px;
+				   margin-top:0px
+			   }    
+	
+	
+				   .text{
+					  font-size:15px;
+					  left:15px;
+					  width:350px
+				  }
+	
+					  .text span{
+					  font-size:23px;
+					  white-space:nowrap
+				  }
+			
+			
+			}
+	
+	
+	
+	
+			@media only screen and (max-width:500px){
+				.centre p{
+					font-size:14px
+				}
+	
+	
+				.centre{
+					height:auto
+				}
+	
+				footer{
+					margin-top:auto
+				}
+	
+	 
+			}
+	
+	
+	
+	
+			@media only screen and (max-width:465px){
+				
+			header ul{
+			 padding-left:70px; 
+			}
+			
+		  
+		  
+			
+			   .bars div{ 
+			  width:350px;
+			  margin-top:50px;
+			  line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:15px;
+			  letter-spacing:1px;
+			 
+			  }
+		  
+		  
+		  
+			}
+	
+	
+	
+					@media only screen and (max-width:440px){
+	
+			  .cas1-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/batiment.jpg');
+				   height:50%;
+				   padding:100px 250px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			 .cas2-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/electricite.jpg');
+				   height:50%;
+				   padding:100px 250px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+			   .cas3-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   height:50%;
+				   padding:100px 250px 100px 100px;
+			   margin-right:5px
+			   }
+	
+	
+	
+			 .cas4-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/plombier.jpg');
+				   height:50%;
+				   padding:100px 250px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+			  .cas5-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				   height:50%;
+				   padding:100px 250px 30px 100px;
+				   margin-right:5px;
+			   }
+	   .cas5-respon-coller{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				   height:50%;
+				   padding:20px 250px 100px 100px;
+				   margin-left:-100px;
+				   margin-top:0px
+			   }
+	
+			   .centre p strong{
+				   font-size:20px
+			   }   
+	
+			}
+	
+	
+	
+			@media only screen and (max-width:420px){
+	
+				   .text{
+					  font-size:14px;
+					  left:12px;
+					  width:350px
+				  }
+	
+					  .text span{
+					  font-size:20px;
+					  white-space:nowrap
+				  }
+	
+				 .titre span{
+				 font-size:20px;;
+				   }
+		
+				 .titre strong{
+				  color:#23bef9
+				   }
+		
+				  .titre p{
+				   font-size:12px;
+					font-weight:600;
+					margin-top:-10px
+				   }
+		
+				 .titre nav{
+				   font-size:10px;
+				  margin-top:-10px;
+					 }
+			
+			}
+	
+	
+		  
+		  
+			@media only screen and (max-width:410px){
+		  
+				header ul{
+			 padding-left:70px; 
+			}
+			
+			header > ul> li> a{
+			color: #FFF;
+			margin:0px 0px ;
+			padding:20px 80px;
+			outline:none;
+			margin-right:5px;
+			font-size:20px
+			}
+			
+			}
+			
+		  
+			@media only screen and (max-width:418px){
+		   
+			   .bars div{ 
+			  width:300px;
+			  margin-top:50px;
+			  line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:15px;
+			  letter-spacing:1px;
+			  margin-left:-200px
+			 
+			  }
+	
+	
+			  footer p{
+				  position:static;
+				  white-space:nowrap;
+				  margin-bottom:auto;
+				  margin-left:5px;
+				  font-size:20px
+			  }
+	
+						footer .sign{
+				  position:static;
+			  margin-left:-300px;
+			  margin-top:auto;
+			  width:300px;
+			  font-size:10px
+			  }
+		  
+			}
+	
+			@media only screen and (max-width:375px){
+		  
+			   .text{
+					  font-size:14px;
+					  left:12px;
+					  width:250px
+				  }
+	
+					  .text span{
+					  font-size:15px;
+					  white-space:nowrap
+				  }
+	
+		  
+			}
+				  
+		  
+		  
+			@media only screen and (max-width:370px){
+		  
+					header ul{
+			 padding-left:50px; 
+			}
+		  
+			}
+	
+	
+					@media only screen and (max-width:360px){
+		  
+		.cas1-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/batiment.jpg');
+				   height:50%;
+				   padding:100px 200px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			 .cas2-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/electricite.jpg');
+				   height:50%;
+				   padding:100px 200px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+			   .cas3-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   height:50%;
+				   padding:100px 200px 100px 100px;
+			   margin-right:5px
+			   }
+	
+	
+	
+			 .cas4-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/plombier.jpg');
+				   height:50%;
+				   padding:100px 200px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+			  .cas5-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				   height:50%;
+				   padding:100px 200px 30px 100px;
+				   margin-right:5px;
+			   }
+	   .cas5-respon-coller{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				   height:50%;
+				   padding:20px 200px 100px 100px;
+				   margin-left:-100px;
+				   margin-top:0px
+			   }
+	
+		  
+			}
+		  
+		  
+		  
+			@media only screen and (max-width:342px){
+		  
+		  
+			   .bars div{ 
+			  width:250px;
+			  margin-top:50px;
+			  line-height:1.5;
+			  font-family:sans-serif;
+			  font-size:14px;
+			  letter-spacing:1px;
+			 
+			  }
+			
+		
+	
+	
+			  footer p{
+				  position:static;
+				  white-space:nowrap;
+				  margin-bottom:auto;
+				  margin-left:5px;
+				  font-size:20px
+			  }
+	
+						footer .sign{
+				  position:static;
+			  margin-left:-250px;
+			  margin-top:auto;
+			  width:300px;
+			  font-size:10px;
+			  width:250px
+			  }
+		  
+		  
+			}
+	
+	
+	
+			@media only screen and (max-width:312px){
+				  .cas1-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/batiment.jpg');
+				   height:50%;
+				   padding:100px 150px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			 .cas2-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/electricite.jpg');
+				   height:50%;
+				   padding:100px 150px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+			   .cas3-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   height:50%;
+				   padding:100px 150px 100px 100px;
+			   margin-right:5px
+			   }
+	
+	
+	
+			 .cas4-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/plombier.jpg');
+				   height:50%;
+				   padding:100px 150px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+			  .cas5-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				   height:50%;
+				   padding:100px 150px 30px 100px;
+				   margin-right:5px;
+			   }
+	   .cas5-respon-coller{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				   height:50%;
+				   padding:20px 150px 100px 100px;
+				   margin-left:-100px;
+				   margin-top:0px
+			   }
+	
+			}
+		  
+	
+		  /*fin responsive*/	

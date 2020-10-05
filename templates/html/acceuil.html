@@ -1,0 +1,109 @@
+{% extends 'html/base.html'%}
+
+
+{% block title %}
+
+    Acceuil
+
+{% endblock%}
+
+	{% load static %}
+{% block style %}
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/acceuil.css' %}">
+
+{% endblock %}
+
+{% block contend %}
+
+div class="banniere">
+        
+<div class="banniere">
+        
+  <div class="titre">
+     <span><strong>PYRAMIDE</strong> SERVICES</span>
+     <p> FROID – CLIMATISATION</p>
+      <nav>Electricité Générale – Bâtiment – Plomberie industrielle
+     Installation – Maintenance  - Vente</nav>
+   </div>
+
+   <div class="text">
+     <span>Bienvenue au <strong>PYRAMIDE</strong> SERVICES <br><br></span>
+     Notre entreprise est une structure au régime normal dont la Rigueur, le Dynamisme, le Respect de la clientèle, de ses engagements et la Compétence demeurent nos atouts pour une compétitivité plus accrue, pour le bonheur de nos partenaires – clients.
+   </div>
+ 
+ </div>
+
+ <div class="centre">
+     <div class="cas1"></div>
+     <div class="cas2">
+         <p>
+
+         <strong>BATIMENT</strong><br><br>
+         <span>PYRAMIDE</span> SERVICES, est spécialisée dans la construction de bâtiment.
+
+            Quel que soit votre projet, notre équipe de professionnels met ses compétences et son savoir-faire à votre service.
+            
+            Nous vous proposons aussi une assistance technique à votre écoute tout au long de la réalisation de votre cĥantier, et nous disposons de mouens conséquents pour assurer tout types d'intervention.
+            
+            De la construction à la rénovation de bâtiments, nous pouvons intervenir rapidement et vous proposer un devis adapté à vos besoins.
+            
+            Nous vous proposons de vous présenter plus amplement nos activités lors d'un rendez-vous à votre convenance.
+         </p>
+         <div class="cas1-respon"></div>
+     </div>
+     <div class="cas3">
+         <p>
+             <strong>ELECTRICITÉ</strong><br><br>
+             La société <span>PYRAMIDE</span> SERVICES,vous propose ses services en électricité générale et en installation, rénovation / mise aux normes de vos dispositifs électriques. (tableau électrique, éclairage, contrôle d’accès, chauffage, motorisation etc.).
+
+               Nos électriciens assurent également toutes vos demandes de dépannage en urgence ou non.
+               Nous intervenons depuis plus de 13 ans afin de satisfaire les professionnels, les particuliers, les syndics de copropriétés et les collectivités.
+               Nous vous accompagnons dans tous vos projets électriques. En effet, si vous souhaitez faire des travaux en électricité dans votre habitation, votre commerce ou votre copropriété, il vous suffit de nous contacter afin d’obtenir des conseils de la part de nos électriciens et recevoir un devis gratuit.<br>
+               N’hésitez pas à nous <a href="{% url 'contact'%}"><span>contacter</span></a> afin d’obtenir un devis gratuit.
+         </p>
+         <div class="cas2-respon"></div>             
+     </div>
+     <div class="cas4"></div>
+     <div class="cas5"></div>
+     <div class="cas6">
+         <p>
+             <strong>MAINTENANCE</strong><br><br>
+             Notre pôle Maintenance assure un service a domicile 24h/24 en plomberie.Nous pourrons intervenir en urgence dans un délai de 30 à 45 minutes suivant votre appel ou sur rendez-vous, à votre convenance, dnas toute la capitale d'Abidjan. Nous nous déplaçons gratuitement afin de vous établir un dévis détaillé
+        </p>
+        <div class="cas3-respon"></div>
+     </div>
+     <div class="cas7">
+         <p>
+             <strong>PLOMBERIE</strong><br><br>
+             Notre entreprise réalise des études et les travaux associés, des dépannages, et assure la maintenance d’installations dans le domaine de la tuyauterie industrielle, de la plomberie sanitaire, du chauffage et du génie climatique depuis 50 ans.
+
+                 Elle possède une solide expérience de réalisation d’installations très variées, réseaux de distribution de fluides liquides et gazeux, plomberie sanitaire, chaufferies de petite et grande puissance, ventilation de confort et industrielle, chauffage climatisation à détente direct réversible, réseaux fonte enterrés.
+                 
+                 Elle opère auprès de clients industriels, d’établissements de santé, de collectivités, de ministères, de groupes hôteliers et de la grande distribution.
+                 
+                 Elle est basée à Vénissieux depuis toujours.
+        </p>
+        <div class="cas4-respon"></div>
+     </div>
+     <div class="cas8"></div>
+     <div class="cas9">
+         <div class="coller"></div>
+     </div>
+     <div class="cas10">
+         <p>
+             <strong>VENTE</strong><br><br>
+             Notre Entreprise est spécialisée dans la vente de fournitures de bureau , de matériels informatiques , de mobilier de bureau et de voiture. 
+             
+            Nous sommes aussi spécialisée dans la vente de produits pour le bureau, notre raison d'être est de faciliter le quotidien des entreprises et particuliers en proposant une large sélection de produits en adéquation avec leurs besoins.
+        </p>
+        <div class="cas5-respon">
+            <div class="cas5-respon-coller"></div>
+        </div>
+     </div>
+ </div>
+
+
+
+{% endblock %}
+
