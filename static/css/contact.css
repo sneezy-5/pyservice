@@ -1,6 +1,9 @@
+
 .header #lien2{
-  color:#7bbcf6
+  color:#23bef9
 }
+
+
 
 /*formulaire*/
 
@@ -369,43 +372,45 @@ footer{
   
   
   
-     .bars div{
-    width:195px;
-    margin-top:-170px;
-    margin-left:50px;
-    line-height:1.5;
-    font-family:sans-serif;
-    font-size:15px;
-    letter-spacing:1px
-    }
-  
-    
-    footer .bars{
-    bottom:0;
-    z-index:1;
-    display:flex;
-    margin-top:100px;
-    margin-left:-40px
-    }
-  
-  
-    footer p{
-    position:absolute;
-    font-size:30px;
-    left:10px;
-    top:0;;
-    font-weight:600
-    }
-    footer .sign{
-    position:absolute;
-     width:400px;
-     bottom:80px;
-     left:10px;
-     line-height:1.5;
-    font-family:sans-serif;
-    font-size:12px;
-    letter-spacing:1px;
-    }
+		   .bars div{
+		  width:195px;
+		  margin-top:-170px;
+		  margin-left:50px;
+		  line-height:1.5;
+		  font-family:sans-serif;
+		  font-size:15px;
+		  letter-spacing:1px
+		  }
+		
+		  
+		  footer .bars{
+		  bottom:0;
+		  z-index:1;
+		  display:flex;
+		  margin-top:100px;
+		  margin-left:-40px
+		  }
+		
+		
+		  footer p{
+		  position:absolute;
+		  font-size:30px;
+		  left:10px;
+		  font-weight:600
+		  }
+
+
+		  footer .sign{
+		  position:absolute;
+		   width:400px;
+		   bottom:80px;
+		   left:10px;
+		   line-height:1.5;
+		  font-family:sans-serif;
+		  font-size:12px;
+		  letter-spacing:1px;
+		  }
+		
   
   
     }
@@ -853,39 +858,7 @@ footer{
   
 
 
-  
-  /*@media only screen and (max-width:997px){
 
-   .grand-parents{
-  height:1850px
-   }
-
-  .parents-icones{
-  width:710px;
-  }
-  
-  .form-parent{
-   width:900px
-  }
-  
-  .parents-icones #mail{
-  top:500px;
-  left:780px;
-  height:100px;
-  width:100px
-  }
-  
-  .parents-icones .text-mail{
-  top:600px;
-  left:730px;
-  width:200px;
-  font-size:17px
-  }
-
-  footer p{
-    top:-20px
-  }
-  }*/
 
       @media only screen and (max-width:959px){
   .form input[type="submit"]{
@@ -908,24 +881,33 @@ footer{
     }
   
   
-  
-     .bars div{ 
-    width:700px;
-    margin-top:50px;
-    margin-left:50px;
-    line-height:1.5;
-    font-family:sans-serif;
-    font-size:20px;
-    letter-spacing:1px;
-   
-    }
+  	
+		   .bars div{ 
+		  width:700px;
+		  margin-top:50px;
+		  margin-left:-270px;
+		  line-height:1.5;
+		  font-family:sans-serif;
+		  font-size:20px;
+		  letter-spacing:1px;
+		 
+		  }
 
 
-    footer .sign{
-     position:absolute;
-     top:810px;
-     left:50px
-    }
+
+		  footer p{
+		  	position:static;
+		  	white-space:nowrap;
+		  	margin-bottom:auto;
+		  	margin-left:5px
+		  }
+
+		  		  footer .sign{
+		  	position:static;
+		  margin-left:-700px;
+		  margin-top:auto
+		  }
+		
   
   
     }
@@ -1050,29 +1032,33 @@ footer{
   
   
   
-     .bars div{ 
-    width:600px;
-    margin-top:50px;
-    margin-left:20px;
-    line-height:1.5;
-    font-family:sans-serif;
-    font-size:20px;
-    letter-spacing:1px;
-   
-    }
-  
-  
-      footer .sign{
-    position:absolute;
-     width:400px;
-     bottom:0px;
-     left:10px;
-     line-height:1.5;
-    font-family:sans-serif;
-    font-size:12px;
-    letter-spacing:1px;
-    }
-  
+    
+		   .bars div{ 
+		  width:600px;
+		  margin-top:50px;
+		  margin-left:-270px;
+		  line-height:1.5;
+		  font-family:sans-serif;
+		  font-size:20px;
+		  letter-spacing:1px;
+		 
+		  }
+
+
+		  footer p{
+		  	position:static;
+		  	white-space:nowrap;
+		  	margin-bottom:auto;
+		  	margin-left:5px
+		  }
+
+		  		  footer .sign{
+		  	position:static;
+		  margin-left:-600px;
+		  margin-top:auto;
+		  width:400px
+		  }
+		
   
   }
 
@@ -1284,7 +1270,7 @@ footer{
 
 
    
-  @media only screen and  (max-width:620px){
+  @media only screen and  (max-width:665px){
   
     footer .bars{
     bottom:0;
@@ -1296,21 +1282,32 @@ footer{
     }
   
   
-  
-     .bars div{ 
-    width:500px;
-    margin-top:50px;
-    margin-left:20px;
-    line-height:1.5;
-    font-family:sans-serif;
-    font-size:20px;
-    letter-spacing:1px;
-   
-    }
+   .bars div{ 
+		  width:500px;
+		  margin-top:50px;
+		  margin-left:-270px;
+		  line-height:1.5;
+		  font-family:sans-serif;
+		  font-size:20px;
+		  letter-spacing:1px;
+		 
+		  }
 
-    footer .sign{
-      top:auto
-    }
+
+		  footer p{
+		  	position:static;
+		  	white-space:nowrap;
+		  	margin-bottom:auto;
+		  	margin-left:5px
+		  }
+
+		  		  footer .sign{
+		  	position:static;
+		  margin-left:-500px;
+		  margin-top:auto;
+		  width:400px
+		  }
+		
   
   }
 
@@ -1415,7 +1412,7 @@ footer{
  
   
 
-   @media only screen and (max-width:536px){
+   @media only screen and (max-width:565px){
   
   footer{
     height:950px
@@ -1427,36 +1424,33 @@ footer{
   
   
   
-     .bars div{ 
-    width:400px;
-    margin-top:50px;
-    margin-left:20px;
-    line-height:1.5;
-    font-family:sans-serif;
-    font-size:17px;
-    letter-spacing:1px;
-   
-    }
+    	footer{
+		  height:900px
+		}
+		   .bars div{ 
+		  width:400px;
+		  margin-top:50px;
+		  line-height:1.5;
+		  font-family:sans-serif;
+		  font-size:17px;
+		  letter-spacing:1px;
+		 
+		  }
 
 
-    footer p{
-      font-size:23px;
-      top:50px
-    }
-  
-  
-  
-    footer .sign{
-    position:absolute;
-     width:400px;
-     bottom:30px;
-     left:10px;
-     line-height:1.5;
-    font-family:sans-serif;
-    font-size:10px;
-    letter-spacing:1px;
-    }
-  
+		  footer p{
+		  	position:static;
+		  	white-space:nowrap;
+		  	margin-bottom:auto;
+		  	margin-left:5px
+		  }
+
+		  		  footer .sign{
+		  	position:static;
+		  margin-left:-400px;
+		  margin-top:auto;
+		  width:400px
+		  }
   
   }
 
@@ -1554,37 +1548,16 @@ footer{
 
 
   
-     .bars div{ 
-    width:350px;
-    margin-top:50px;
-    margin-left:20px;
-    line-height:1.5;
-    font-family:sans-serif;
-    font-size:15px;
-    letter-spacing:1px;
-   
-    }
-
-
-    footer p{
-      font-size:20px;
-      top:50px
-    }
-  
-  
-  
-    footer .sign{
-    position:absolute;
-     width:350px;
-     bottom:50px;
-     left:10px;
-     line-height:1.5;
-    font-family:sans-serif;
-    font-size:10px;
-    letter-spacing:1px;
-    }
-  
-  
+		   .bars div{ 
+		  width:350px;
+		  margin-top:50px;
+		  line-height:1.5;
+		  font-family:sans-serif;
+		  font-size:15px;
+		  letter-spacing:1px;
+		 
+		  }
+	  
 
   }
 
@@ -1683,30 +1656,36 @@ footer{
 
   
 
-  @media only screen and (max-width:390px){
+  @media only screen and (max-width:418px){
  
-     .bars div{ 
-    width:300px;
-    margin-top:50px;
-    margin-left:20px;
-    line-height:1.5;
-    font-family:sans-serif;
-    font-size:15px;
-    letter-spacing:1px;
-   
-    }
-  
-    footer .sign{
-    position:absolute;
-     width:300px;
-     bottom:50px;
-     left:10px;
-     line-height:1.5;
-    font-family:sans-serif;
-    font-size:10px;
-    letter-spacing:1px;
-    }
+        .bars div{ 
+		  width:300px;
+		  margin-top:50px;
+		  line-height:1.5;
+		  font-family:sans-serif;
+		  font-size:15px;
+		  letter-spacing:1px;
+		  margin-left:-200px
+		 
+		  }
 
+
+		  footer p{
+		  	position:static;
+		  	white-space:nowrap;
+		  	margin-bottom:auto;
+		  	margin-left:5px;
+		  	font-size:20px
+		  }
+
+		  		  footer .sign{
+		  	position:static;
+		  margin-left:-300px;
+		  margin-top:auto;
+		  width:300px;
+		  font-size:10px
+		  }
+	  
   }
 
 
@@ -1751,32 +1730,40 @@ header ul{
 
 
 
-  @media only screen and (max-width:340px){
+  @media only screen and (max-width:342px){
 
 
-     .bars div{ 
-    width:250px;
-    margin-top:50px;
-    margin-left:20px;
-    line-height:1.5;
-    font-family:sans-serif;
-    font-size:15px;
-    letter-spacing:1px;
-   
-    }
-  
-    footer .sign{
-    position:absolute;
-     width:250px;
-     bottom:5px;
-     left:10px;
-     line-height:1.5;
-    font-family:sans-serif;
-    font-size:10px;
-    letter-spacing:1px;
-    }
+      .bars div{ 
+		  width:250px;
+		  margin-top:50px;
+		  line-height:1.5;
+		  font-family:sans-serif;
+		  font-size:14px;
+		  letter-spacing:1px;
+		 
+		  }
+		
+	
 
 
+		  footer p{
+		  	position:static;
+		  	white-space:nowrap;
+		  	margin-bottom:auto;
+		  	margin-left:5px;
+		  	font-size:20px
+		  }
+
+		  		  footer .sign{
+		  	position:static;
+		  margin-left:-250px;
+		  margin-top:auto;
+		  width:300px;
+		  font-size:10px;
+		  width:250px
+		  }
+	  
+	  
   }
 
 
