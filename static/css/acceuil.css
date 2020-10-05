@@ -1,6 +1,7 @@
-.header #lien1:nth-child(){
-	color:#23bef9
+.header #lien1{
+	color:#7bbcf6
   }
+  
 
 .banniere{
 	background:linear-gradient(to right, #00000059,#00000059),center/cover no-repeat url('/static/img/acceuil.jpg');
