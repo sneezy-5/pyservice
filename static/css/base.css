@@ -110,14 +110,15 @@ footer{
  	
 	/*footer*/
 
+	
 	footer{
 		height:500px;
 		display:-webkit-box;
 		display:-moz-flexbox;
 		display:flex;
 		-webkit-box-align:center;
-			-moz-flex-align:center;
-				align-items:center;
+		-moz-flex-align:center;
+		align-items:center;
 		font-family:sans-serif;
 		font-size:16px;
 		color:#acacac;
@@ -127,7 +128,7 @@ footer{
 		z-index:1;
 		top:5px;
 		width:100%;
-		margin-top:501px;
+		margin-top:1500px;
 		z-index:8
 	  
 	  }
@@ -136,7 +137,7 @@ footer{
 	  bottom:0;
 	  z-index:9;
 	  display:flex;
-	  margin-top:100px;
+	  margin-top:150px;
 	  margin-left:31px
 	  }
 	  
@@ -166,7 +167,7 @@ footer{
 	  
 	  footer p{
 		position:absolute;
-		top:3080px;
+		top:4100px;
 		font-size:30px;
 		left:100px;
 		font-weight:600;
@@ -180,7 +181,7 @@ footer{
 	  footer .sign{
 		position:absolute;
 	   width:400px;
-	   top:3500px;
+	   top:4520px;
 	   left:100px;
 		 line-height:1.5;
 		font-family:sans-serif;
@@ -191,6 +192,56 @@ footer{
 	  
 	  .sign span{
 		color:#67b8ff
+	  }
+
+
+	  .btn-devis{
+		height: 40px;
+		position: fixed;
+		z-index: 50000;
+		right:40px;
+		top: 580px;
+		width: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50px;
+		font-family: sans-serif;
+		font-weight: 600;
+		text-decoration: none;
+		color: #ffffff;
+		animation: agite 1s  infinite ease-in;
+		background-color: #12994a;
+	   }
+	.btn-devis i{
+		height: 50px;
+		width: 50px;
+		background-color: #323333;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 20px;
+		border-radius: 50px;
+		position: relative;
+		left: 6px;
+	   }
+
+	@keyframes agite{
+		0%{
+			transform: translateY(0px);
+			transition: 1s;
+			background-color: #12994a;
+		}
+
+		50%{
+			transform: translateY(10px);
+			transition: 1s;
+			background-color: rgb(65, 212, 109);
+		}
+	}
+
+	  .btn-devis:hover{
+		  animation-play-state:paused
 	  }
 	  
 	  
