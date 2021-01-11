@@ -2,7 +2,6 @@
 	color:#7bbcf6
   }
   
-
   .banniere{
 	background:linear-gradient(to right, #00000059,#00000094),center/cover no-repeat url('/static/img/acceuil.jpg');
 	background-attachment:fixed;
@@ -533,8 +532,8 @@
 			display:-moz-flexbox;
 			display:flex;
 			-webkit-box-align:center;
-			  -moz-flex-align:center;
-				align-items:center;
+			-moz-flex-align:center;
+			align-items:center;
 			font-family:sans-serif;
 			font-size:16px;
 			color:#acacac;
@@ -544,72 +543,72 @@
 			z-index:1;
 			top:5px;
 			width:100%;
-			margin-top:0px;
+			margin-top:1500px;
 			z-index:8
-			
-			}
-			
-			footer .bars{
-			bottom:0;
-			z-index:9;
-			display:flex;
-			margin-top:150px;
-			margin-left:31px
-			}
-			
-			.bars div{
+		  
+		  }
+		  
+		  footer .bars{
+		  bottom:0;
+		  z-index:9;
+		  display:flex;
+		  margin-top:150px;
+		  margin-left:31px
+		  }
+		  
+		  .bars div{
 			width:200px;
-			margin-top:-150px;
+			margin-top:-155px;
 			margin-left:70px;
 			line-height:1.5;
 			font-family:sans-serif;
 			font-size:15px;
 			letter-spacing:1px;
 			z-index:10
-			}
-			
-			.bars strong{
+		  }
+		  
+		  .bars strong{
 			color:white;
-			}
-			
-			.bars span{
+		  }
+		  
+		  .bars span{
 			color:#ffffff
-			}
-			
-			footer .img{
+		  }
+		  
+		  footer .img{
 			z-index:1;
 			margin-top:0px
-			}
-			
-			footer p{
+		  }
+		  
+		  footer p{
 			position:absolute;
-			top:650px;
+			top:4100px;
 			font-size:30px;
 			left:100px;
 			font-weight:600;
-			z-index:50
+			z-index:500;
+		  }
+		  
+		  footer p strong{
+			color: #23bef9;
 			}
-			
-			footer p strong{
-			color:#22bdf9;
-			}
-			
-			footer .sign{
+		  
+		  footer .sign{
 			position:absolute;
-			 width:400px;
-			 top:1070px;
-			 left:100px;
+		   width:400px;
+		   top:4520px;
+		   left:100px;
 			 line-height:1.5;
 			font-family:sans-serif;
 			font-size:12px;
 			letter-spacing:1px;
-			z-index:200
-			}
-			
-			.sign span{
+			z-index:20
+		  }
+		  
+		  .sign span{
 			color:#67b8ff
-			}
-			
+		  }
+	
 	
 		  .btn-devis{
 			height: 40px;
@@ -2115,7 +2114,7 @@
 	
 			 .cas2-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('img/electricite.jpg');
+				   background:center/cover no-repeat url('/static/img/electricite.jpg');
 				   height:50%;
 				   padding:100px 200px 100px 100px;
 				   margin-right:5px;
@@ -2318,7 +2317,7 @@
 			   }
 			   .cas5-respon-coller{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/import2.jpg');
+				   background:center/cover no-repeat url('img/import2.jpg');
 				   height:50%;
 				   padding:20px 150px 100px 100px;
 				   margin-left:-100px;
