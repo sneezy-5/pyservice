@@ -3,8 +3,8 @@
   }
   
 
-.banniere{
-	background:linear-gradient(to right, #00000059,#00000059),center/cover no-repeat url('/static/img/acceuil.jpg');
+  .banniere{
+	background:linear-gradient(to right, #00000059,#00000094),center/cover no-repeat url('/static/img/acceuil.jpg');
 	background-attachment:fixed;
 	height:600px;
 	left:0;
@@ -42,7 +42,7 @@
 		
 		.titre span{
 		font-size:40px;;
-		font-weight:600
+		font-weight:600;
 		}
 		
 		.titre strong{
@@ -58,6 +58,8 @@
 		.titre nav{
 		font-size:13px;
 		margin-top:-25px;
+		color: #ffffff;
+		font-weight:600;
 		}
 	
 	
@@ -108,7 +110,7 @@
 	
 	   .centre{
 		background: #40caff;
-		height: 2005px;
+		height: 2009px;
 		z-index: 7;
 		margin-top: 600px;
 		display:flex;
@@ -144,7 +146,7 @@
 	
 		  .cas5{
 		   width:50%;
-		   background:center/cover no-repeat url('/static/img/maintenance.jpg')
+		   background:center/cover no-repeat url('/static/img/froid-climatisation.jpg')
 	   }
 	
 		  .cas6{
@@ -158,29 +160,72 @@
 	   }
 	
 	
-		  .cas8{
-		   width:50%;
+	  .cas8{
+		width:50%;
 		background:center/cover no-repeat url('/static/img/plombier.jpg')
-	   }
+	  }
 	
 	
 		  .cas9{
 		   width:50%;
-		   background:center/cover no-repeat url('/static/img/voiture1.jpg')
+		   background:center/cover no-repeat url('/static/img/import1.jpg')
 	   }
 	
 	   .cas9 .coller{
 		   height: 100%;
 		   width: 350px;
-		   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+		   background:center/cover no-repeat url('/static/img/import2.jpg');
 		   margin-left:auto
 	   }
 	
 	
-			 .cas10{
+		 .cas10{
 		   width:50%;
 		   background:#000000
 	   }
+	/*cas 11 et 12 ajouté*/
+	
+	   .cas13{
+		width:50%;
+		background:center/cover no-repeat url('/static/img/electromecanique3.jpg')
+	}
+	
+	
+		  .cas12{
+		width:50%;
+		background:#000000
+		  }
+	
+		/*fin cas 11 et 12 ajouté*/
+	 
+		/*cas 14 et 15 ajouté*/
+	 
+		   .cas15{
+			width:50%;
+			background:center/cover no-repeat url('/static/img/electrotechnique1.jpg')
+		}
+	 
+		.cas15 .coller{
+			height: 100%;
+			width: 350px;
+			background:center/cover no-repeat url('/static/img/electrotechnique3.jpg');
+			margin-left:auto
+		}
+	 
+	 
+		  .cas16{
+			width:50%;
+			background:#000000
+		}
+		/*fin cas 14 et 15 ajouté*/
+	
+		/*cas 17 et 18 ajouté*/
+	
+		
+			/*fin cas 11 et 12 ajouté*/
+	
+	
+	/*fin*/
 	
 	/*contenue*/
 	
@@ -310,7 +355,7 @@
 			background:#ffffff;
 			z-index:1000;
 			left:970px;
-			top:1775px;
+			top:1777px;
 			transform:skewX(500deg)
 		}
 	
@@ -390,10 +435,95 @@
 				width:80px;
 				background:#ffffff;
 				z-index:1000;
-				top:2765px;
+				top:2781px;
 				left:975px;
 				transform:skewX(500deg)
 			}
+	
+			/*exampleeeeee*/
+	
+			.cas12{
+				background:#000000;
+				display: flex;
+				 justify-content:center;
+			align-items:center;
+			 font-size:18px;
+			line-height:1.5;
+			padding:50px
+			}
+			
+			
+			.cas12 p{
+			font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+			color:#ffffff;
+			font-weight:300
+			}
+			
+			.cas12 p strong{
+				color:aliceblue;
+				display:flex;
+				justify-content:center;
+				font-size:30px
+			}
+			
+			.cas12 p span{
+				color:#23bef9
+			}
+			
+			.cas12 p strong:after{
+				content:'';
+				position:absolute;
+				height:4px;
+				width:80px;
+				background:#ffffff;
+				z-index:1000;
+				top:3297px;
+				transform:skewX(500deg)
+			}
+			/*finnn*/
+	
+			/*example2*/
+			.cas16{
+			background:#23bef9;
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			font-size:18px;
+			line-height:1.5;
+			padding:50px
+			}
+			
+			
+			.cas16 p{
+			font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+			color:#ffffff;
+			font-weight:300
+			}
+			
+			.cas16 p strong{
+				color:aliceblue;
+				display:flex;
+				justify-content:center;
+				font-size:30px
+			}
+			
+			.cas16 p span{
+				color:#23bef9
+			}
+			
+			.cas16 p strong:after{
+				content:'';
+				position:absolute;
+				height:4px;
+				width:80px;
+				background:#ffffff;
+				z-index:1000;
+				top:3773px;
+				left:975px;
+				transform:skewX(500deg)
+			}
+			/*fin2*/
+	
 		
 		/*footer*/
 	
@@ -403,8 +533,8 @@
 			display:-moz-flexbox;
 			display:flex;
 			-webkit-box-align:center;
-				-moz-flex-align:center;
-					align-items:center;
+			-moz-flex-align:center;
+			align-items:center;
 			font-family:sans-serif;
 			font-size:16px;
 			color:#acacac;
@@ -414,7 +544,7 @@
 			z-index:1;
 			top:5px;
 			width:100%;
-			margin-top:501px;
+			margin-top:1500px;
 			z-index:8
 		  
 		  }
@@ -423,7 +553,7 @@
 		  bottom:0;
 		  z-index:9;
 		  display:flex;
-		  margin-top:100px;
+		  margin-top:150px;
 		  margin-left:31px
 		  }
 		  
@@ -453,7 +583,7 @@
 		  
 		  footer p{
 			position:absolute;
-			top:3080px;
+			top:4100px;
 			font-size:30px;
 			left:100px;
 			font-weight:600;
@@ -467,7 +597,7 @@
 		  footer .sign{
 			position:absolute;
 		   width:400px;
-		   top:3500px;
+		   top:4520px;
 		   left:100px;
 			 line-height:1.5;
 			font-family:sans-serif;
@@ -478,6 +608,56 @@
 		  
 		  .sign span{
 			color:#67b8ff
+		  }
+	
+	
+		  .btn-devis{
+			height: 40px;
+			position: fixed;
+			z-index: 50000;
+			right:40px;
+			top: 580px;
+			width: 200px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50px;
+			font-family: sans-serif;
+			font-weight: 600;
+			text-decoration: none;
+			color: #ffffff;
+			animation: agite 1s  infinite ease-in;
+			background-color: #12994a;
+		   }
+		.btn-devis i{
+			height: 50px;
+			width: 50px;
+			background-color: #323333;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 20px;
+			border-radius: 50px;
+			position: relative;
+			left: 6px;
+		   }
+	
+		@keyframes agite{
+			0%{
+				transform: translateY(0px);
+				transition: 1s;
+				background-color: #12994a;
+			}
+	
+			50%{
+				transform: translateY(10px);
+				transition: 1s;
+				background-color: rgb(65, 212, 109);
+			}
+		}
+	
+		  .btn-devis:hover{
+			  animation-play-state:paused
 		  }
 		  
 		  
@@ -508,6 +688,17 @@
 		height:0px;
 		width:0px;
 	}
+	
+	.cas12 p strong:after{
+		height:0;
+		width:0
+	}
+	
+	.cas16 p strong:after{
+		height:0;
+		width:0
+	}
+	
 	
 	}
 		  @media only screen and (max-width:1290px){
@@ -562,8 +753,23 @@
 			font-size:25px
 			 }
 	
+			 .cas12 p{
+				 font-size:17px;
+				 font-weight:400
+			 }
 	
+			 .cas12 p strong{
+				 font-size:25px
+			 }
 	
+			 .cas16 p{
+				 font-size:17px;
+				 font-weight:400
+			 }
+	
+			 .cas16 p strong{
+				 font-size:25px
+			 }     
 		  }
 	
 		  @media only screen and (max-width:1070px){
@@ -608,6 +814,10 @@
 			  }
 	
 			  .cas9 .coller{
+				  width:50%
+			  }
+	
+			  .cas15 .coller{
 				  width:50%
 			  }
 			}
@@ -776,7 +986,7 @@
 	
 			   .cas3-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   background:center/cover no-repeat url('/static/img/froid-climatisation.jpg');
 				   height:50%;
 				   padding:200px;
 				   margin-right:50px;
@@ -825,7 +1035,7 @@
 	
 	
 			   .cas5-respon{
-				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				background:center/cover no-repeat url('/static/img/import1.jpg');
 				   height:50%;
 				   padding:200px;
 				   margin-right:50px;
@@ -833,12 +1043,73 @@
 			   }
 	
 			   .cas5-respon-coller{
-				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				   height:50%;
+				   padding:200px 200px 200px 48px;
+				margin-top:-200px;
+				width:30%;
+				background:center/cover no-repeat url('/static/img/import2.jpg');
+			   }
+	
+	
+			   /**electromecanik*/
+				.cas13{
+				   display:none
+			   }
+	
+	
+				.cas12{
+				   width:100%;
+				   display:flex;
+				   flex-direction:row-reverse
+			   }
+	
+			   .cas12 p{
+				   width:50%;
+			   }
+	
+	
+			   .cas6-respon{
+				   width:50%;
+				   background:center/cover no-repeat url('/static/img/electromecanique3.jpg');
+				   height:50%;
+				   padding:200px;
+				   margin-right:50px;
+			   }
+	
+	
+			   /**electrotechnique*/
+				.cas15{
+				  display:none
+			  }
+	
+	 
+				.cas16{
+				   width:100%;
+				   display:flex;
+				   flex-direction:row-reverse
+			   }
+	
+			   .cas16 p{
+				   width:50%;
+			   }
+	
+	
+			   .cas7-respon{
+				   background:center/cover no-repeat url('/static/img/electrotechnique1.jpg');
+				   height:50%;
+				   padding:200px;
+				   margin-right:50px;
+				   width:50%
+			   }
+	
+			   .cas7-respon-coller{
+				   background:center/cover no-repeat url('/static/img/electrotechnique3.jpg');
 				   height:50%;
 				   padding:200px 200px 200px 48px;
 				margin-top:-200px;
 				width:30%
-			   }         
+			   }
+	
 	
 			  }
 	
@@ -869,6 +1140,15 @@
 					  font-size:15px
 				  }
 	
+				  .cas12 p{
+					  font-size:15px
+				  }
+	
+				  .cas16 p{
+					  font-size:15px
+				  }
+	
+	
 				  .text{
 					  font-size:inherit
 				  }
@@ -898,7 +1178,7 @@
 				 .titre nav{
 				   font-size:10px;
 				  margin-top:-10px;
-		}
+				   }
 	
 			  }
 			
@@ -956,7 +1236,7 @@
 			  }
 	
 	
-			  @media only screen and (max-width:865px){
+			  @media only screen and (max-width: 865px){
 	
 	
 	
@@ -1024,7 +1304,7 @@
 	
 			   .cas3-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   background:center/cover no-repeat url('/static/img/froid-climatisation.jpg');
 				   height:50%;
 				   padding:100px 400px 100px 100px;
 			   margin-right:5px
@@ -1034,10 +1314,6 @@
 				   z-index:2000;
 			   }
 	
-	
-	
-	
-	 
 	
 	
 			  .cas7{
@@ -1083,7 +1359,7 @@
 	
 			   .cas5-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				   background:center/cover no-repeat url('/static/img/import1.jpg');
 				   height:50%;
 				   padding:100px 400px 100px 100px;
 				   margin-right:5px;
@@ -1091,13 +1367,85 @@
 	
 			   .cas5-respon-coller{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				background:center/cover no-repeat url('/static/img/import2.jpg');
 				   height:50%;
 				   padding:20px 400px 100px 100px;
 				   margin-left:-100px;
 				   margin-top:0px
 			   } 
 	
+	
+			   /*partir ajout cas12*/
+	
+	
+			  .cas12{
+				   width:100%;
+				   display:flex;
+				   flex-direction:column-reverse;
+		 
+			   
+			   }
+	
+			   .cas12 p{
+				   width:70%;
+				   height:65%
+			   }
+	
+			   .cas12 p strong{
+				   position:absolute;
+				   margin-left:120px
+			   }
+	
+			   .cas6-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 400px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			   /*partir ajout cas16*/
+	
+				.cas16{
+				   width:100%;
+				   display:flex;
+				   flex-direction:column-reverse;
+		
+			   }
+	
+			   .cas16 p{
+			   width:70%;
+				   height:65%
+			   }
+	
+	
+			   .cas7-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 400px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			   .cas7-respon-coller{
+				   width:50%;
+				   height:50%;
+				   padding:20px 400px 100px 100px;
+				   margin-left:-100px;
+				   margin-top:0px
+			   } 
+	
+			   .btn-devis{
+				   font-size:12px;
+				   width:auto;
+				   right:10px;
+				   padding:5px;
+				top:860px
+			   }
+	
+			   .btn-devis i{
+				   font-size:18px;
+				   width:40px;
+				   height:40px;
+			   }
 	
 			  }
 	
@@ -1117,6 +1465,11 @@
 				   position:static;
 	
 			   }
+	
+			   .cas12 p strong{
+				   margin:0;
+				   position:static
+			   }
 			  }
 	
 	
@@ -1132,7 +1485,6 @@
 	
 					.cas5-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
 				   height:50%;
 				   padding:100px 400px 100px 100px;
 				   margin-right:5px;
@@ -1140,12 +1492,26 @@
 	
 			   .cas5-respon-coller{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
 				   height:20px;
 				   padding:20px 400px 100px 100px;
 				   position:relative;
 				   bottom:100px
-			   } 
+			   }
+	
+				   .cas7-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 400px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			   .cas7-respon-coller{
+				   width:50%;
+				   height:20px;
+				   padding:20px 400px 100px 100px;
+				   position:relative;
+				   bottom:100px
+			   }  
 			  }
 			
 			
@@ -1196,14 +1562,14 @@
 			@media only screen and (max-width:640px){
 	
 	
-				.header{
+		.header{
 		height:420px;
 		top:0;
 		width:100%;
-		background:#3b3d3e;
+		background: #2b3538;
 		display:flex;
 		flex-direction:column;
-		justify-content:flex-end
+		justify-content:flex-end;
 	  }
 	
 	  .header img{
@@ -1270,8 +1636,8 @@
 				  margin-left:5px
 			  }
 	
-						footer .sign{
-				  position:static;
+			  footer .sign{
+			  position:static;
 			  margin-left:-500px;
 			  margin-top:auto;
 			  width:400px
@@ -1376,7 +1742,7 @@
 			
 			
 			
-					  .cas1-respon{
+			   .cas1-respon{
 				   width:50%;
 				   background:center/cover no-repeat url('/static/img/batiment.jpg');
 				   height:50%;
@@ -1395,7 +1761,7 @@
 	
 			   .cas3-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   background:center/cover no-repeat url('/static/img/froid-climatisation.jpg');
 				   height:50%;
 				   padding:100px 320px 100px 100px;
 			   margin-right:5px
@@ -1405,7 +1771,7 @@
 	
 			 .cas4-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('img/plombier.jpg');
+				   background:center/cover no-repeat url('/static/img/plombier.jpg');
 				   height:50%;
 				   padding:100px 320px 100px 100px;
 				   margin-right:5px;
@@ -1414,19 +1780,44 @@
 	
 			  .cas5-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				background:center/cover no-repeat url('/static/img/import1.jpg');
 				   height:50%;
 				   padding:100px 320px 30px 100px;
 				   margin-right:5px;
 			   }
-	   .cas5-respon-coller{
+				.cas5-respon-coller{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				   background:center/cover no-repeat url('/static/img/import2.jpg');
 				   height:50%;
 				   padding:20px 320px 100px 100px;
 				   margin-left:-100px;
 				   margin-top:0px
-			   }    
+			   }
+	
+			   /*cas ajout cas12*/
+	
+			 .cas6-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 320px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			   /*cas ajout cas16*/
+				   
+			  .cas7-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 320px 30px 100px;
+				   margin-right:5px;
+			   }
+				.cas7-respon-coller{
+				   width:50%;
+				   height:50%;
+				   padding:20px 320px 100px 100px;
+				   margin-left:-100px;
+				   margin-top:0px
+			   }
 	
 	
 				   .text{
@@ -1448,7 +1839,8 @@
 	
 			@media only screen and (max-width:500px){
 				.centre p{
-					font-size:14px
+					font-size:14px;
+	
 				}
 	
 	
@@ -1459,6 +1851,22 @@
 				footer{
 					margin-top:auto
 				}
+	
+	
+				 .btn-devis{
+				   font-size:12px;
+				   width:100px;
+				   right:10px;
+				   padding:5px;
+				   height:30px;
+				top:860px
+			   }
+	
+			   .btn-devis i{
+				   font-size:18px;
+				   width:80px;
+				   height:40px;
+			   }
 	
 	 
 			}
@@ -1473,8 +1881,6 @@
 			}
 			
 		  
-		  
-			
 			   .bars div{ 
 			  width:350px;
 			  margin-top:50px;
@@ -1485,13 +1891,11 @@
 			 
 			  }
 		  
-		  
-		  
 			}
 	
 	
 	
-					@media only screen and (max-width:440px){
+			   @media only screen and (max-width:440px){
 	
 			  .cas1-respon{
 				   width:50%;
@@ -1512,7 +1916,7 @@
 	
 			   .cas3-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   background:center/cover no-repeat url('/static/img/froid-climatisation.jpg');
 				   height:50%;
 				   padding:100px 250px 100px 100px;
 			   margin-right:5px
@@ -1531,14 +1935,15 @@
 	
 			  .cas5-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				background:center/cover no-repeat url('/static/img/import1.jpg');
 				   height:50%;
 				   padding:100px 250px 30px 100px;
 				   margin-right:5px;
 			   }
-	   .cas5-respon-coller{
+	
+			 .cas5-respon-coller{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				background:center/cover no-repeat url('/static/img/import2.jpg');
 				   height:50%;
 				   padding:20px 250px 100px 100px;
 				   margin-left:-100px;
@@ -1547,7 +1952,32 @@
 	
 			   .centre p strong{
 				   font-size:20px
-			   }   
+			   }
+	
+			   /*cas12 ajout*/
+				.cas6-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 250px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+			   /*cas16 ajout*/
+				  
+				.cas7-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 250px 30px 100px;
+				   margin-right:5px;
+			   }
+	
+			   .cas7-respon-coller{
+				   width:50%;
+				   height:50%;
+				   padding:20px 250px 100px 100px;
+				   margin-left:-100px;
+				   margin-top:0px
+			   }
 	
 			}
 	
@@ -1567,7 +1997,8 @@
 				  }
 	
 				 .titre span{
-				 font-size:20px;;
+				 font-size:20px;
+				 white-space:nowrap
 				   }
 		
 				 .titre strong{
@@ -1583,6 +2014,11 @@
 				 .titre nav{
 				   font-size:10px;
 				  margin-top:-10px;
+		  
+					 }
+	
+					 .titre{
+						 padding:50px;
 					 }
 			
 			}
@@ -1630,8 +2066,8 @@
 				  font-size:20px
 			  }
 	
-						footer .sign{
-				  position:static;
+			  footer .sign{
+			  position:static;
 			  margin-left:-300px;
 			  margin-top:auto;
 			  width:300px;
@@ -1660,7 +2096,7 @@
 		  
 			@media only screen and (max-width:370px){
 		  
-					header ul{
+			header ul{
 			 padding-left:50px; 
 			}
 		  
@@ -1669,7 +2105,7 @@
 	
 					@media only screen and (max-width:360px){
 		  
-		.cas1-respon{
+			  .cas1-respon{
 				   width:50%;
 				   background:center/cover no-repeat url('/static/img/batiment.jpg');
 				   height:50%;
@@ -1679,7 +2115,7 @@
 	
 			 .cas2-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/electricite.jpg');
+				   background:center/cover no-repeat url('img/electricite.jpg');
 				   height:50%;
 				   padding:100px 200px 100px 100px;
 				   margin-right:5px;
@@ -1688,7 +2124,7 @@
 	
 			   .cas3-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   background:center/cover no-repeat url('/static/img/froid-climatisation.jpg');
 				   height:50%;
 				   padding:100px 200px 100px 100px;
 			   margin-right:5px
@@ -1707,20 +2143,86 @@
 	
 			  .cas5-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				background:center/cover no-repeat url('/static/img/import1.jpg');
 				   height:50%;
 				   padding:100px 200px 30px 100px;
 				   margin-right:5px;
 			   }
-	   .cas5-respon-coller{
+			 .cas5-respon-coller{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				background:center/cover no-repeat url('/static/img/import2.jpg');
 				   height:50%;
 				   padding:20px 200px 100px 100px;
 				   margin-left:-100px;
 				   margin-top:0px
 			   }
 	
+	
+			   /*cas12 ajouté*/
+				.cas6-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 200px 100px 100px;
+				   margin-right:5px;
+				   background:center/cover no-repeat url('/static/img/electromecanique3.jpg');
+			   }
+	
+			  /*cas16 ajouté*/
+				.cas7-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 200px 30px 100px;
+				   margin-right:5px;
+			   }
+			 .cas7-respon-coller{
+				   width:50%;
+				   height:50%;
+				   padding:20px 200px 100px 100px;
+				   margin-left:-100px;
+				   margin-top:0px
+			   }
+	
+	
+	
+			   /*font-size des strong*/
+	
+			  
+			  .cas2 p strong{
+			  font-size:18px
+			  }
+						
+			  .cas3 p strong{
+			  font-size:18px
+			  }
+	
+						
+			  .cas6 p strong{
+			  font-size:18px
+			  }
+	
+						
+			  .cas7 p strong{
+			  font-size:18px
+			  }
+	
+						
+			  .cas10 p strong{
+			  font-size:18px
+			  }
+	
+						
+			  .cas12 p strong{
+			  font-size:18px
+			  }
+	
+						
+			  .cas16 p strong{
+			  font-size:18px
+			  }
+	
+			  .centre p{
+				  width:310px
+			  }
 		  
 			}
 		  
@@ -1762,6 +2264,12 @@
 		  
 			}
 	
+			@media only screen and (max-width:320px){
+			.centre p{
+				  width:300px;
+			  }
+			}
+	
 	
 	
 			@media only screen and (max-width:312px){
@@ -1784,7 +2292,7 @@
 	
 			   .cas3-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/maintenance.jpg');
+				   background:center/cover no-repeat url('/static/img/froid-climatisation.jpg');
 				   height:50%;
 				   padding:100px 150px 100px 100px;
 			   margin-right:5px
@@ -1803,19 +2311,53 @@
 	
 			  .cas5-respon{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/voiture1.jpg');
+				background:center/cover no-repeat url('/static/img/import1.jpg');
 				   height:50%;
 				   padding:100px 150px 30px 100px;
 				   margin-right:5px;
 			   }
-	   .cas5-respon-coller{
+			   .cas5-respon-coller{
 				   width:50%;
-				   background:center/cover no-repeat url('/static/img/ordi2.jpg');
+				   background:center/cover no-repeat url('/static/img/import2.jpg');
 				   height:50%;
 				   padding:20px 150px 100px 100px;
 				   margin-left:-100px;
 				   margin-top:0px
 			   }
+	
+	
+			   /*cas12 ajout*/
+				.cas6-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 150px 100px 100px;
+				   margin-right:5px;
+			   }
+	
+	
+			   /*cas16 ajout*/
+				 .cas7-respon{
+				   width:50%;
+				   height:50%;
+				   padding:100px 150px 30px 100px;
+				   margin-right:5px;
+			   }
+			   .cas7-respon-coller{
+				   width:50%;
+				   height:50%;
+				   padding:20px 150px 100px 100px;
+				   margin-left:-100px;
+				   margin-top:0px
+			   }
+	
+			   .titre{
+				   position:relative;
+				   left:20px
+			   }
+	
+			   .centre p{
+				  width:250px;
+			  }
 	
 			}
 		  

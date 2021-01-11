@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/merci.css' %}">
+    <link  rel="stylesheet" href="{% static 'fontawesome-free-5.14.0-web/css/all.min.css' %}">
+</head>
+<body>
+    <div class="merci">
+       <p>MERCI VOTRE DEVIS A BIEN ETE REÇUE.VOUS RECEVRAI <br><span class="l2">UNE  REPONSSE EN MOINS DE <span class="temps">24H</span></span><br><a href="{% url 'acceuil' %}" class="retour"><i class="fa fa-angle-double-left"></i>RETOUR</a></p>
+    </div>
+</body>
+</html>
