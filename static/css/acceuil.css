@@ -761,15 +761,47 @@
 				 font-size:25px
 			 }
 	
-			 .cas16 p{
-				 font-size:17px;
-				 font-weight:400
-			 }
-	
-			 .cas16 p strong{
-				 font-size:25px
-			 }     
-		  }
+			/*example2*/
+		.cas16{
+			background:#23bef9;
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			font-size:18px;
+			line-height:1.5;
+			padding:50px
+			}
+			
+			
+			.cas16 p{
+			font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+			color:#ffffff;
+			font-weight:300
+			}
+			
+			.cas16 p strong{
+				color:aliceblue;
+				display:flex;
+				justify-content:center;
+				font-size:30px
+			}
+			
+			.cas16 p span{
+				color:#23bef9
+			}
+			
+			.cas16 p strong:after{
+				content:'';
+				position:absolute;
+				height:4px;
+				width:80px;
+				background:#ffffff;
+				z-index:1000;
+				top:3773px;
+				left:975px;
+				transform:skewX(500deg)
+			}
+			/*fin2*/
 	
 		  @media only screen and (max-width:1070px){
 			  .cas3 p{
@@ -2317,7 +2349,7 @@
 			   }
 			   .cas5-respon-coller{
 				   width:50%;
-				   background:center/cover no-repeat url('img/import2.jpg');
+				   background:center/cover no-repeat url('/static/img/import2.jpg');
 				   height:50%;
 				   padding:20px 150px 100px 100px;
 				   margin-left:-100px;
