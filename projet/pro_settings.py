@@ -5,7 +5,7 @@ import dj_database_url
 DEBUG = False
 DATABASES['default'] = dj_database_url.config()
 
-ALLOWED_HOSTS = ['https://pyramide-service.herokuapp.com/']
+ALLOWED_HOSTS = ['https://pyramide-service.herokuapp.com']
 
  
 MIDDLEWARE += 'whitenoise.middleware.WhiteNoiseMiddleware',
