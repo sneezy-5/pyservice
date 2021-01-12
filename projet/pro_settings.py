@@ -5,7 +5,7 @@ import dj_database_url
 DEBUG = False
 DATABASES['default'] = dj_database_url.config()
 
-ALLOWED_HOSTS = ['http://pyramide-service.com']
+ALLOWED_HOSTS = ['http:pyramide-services.com']
 
  
 MIDDLEWARE += 'whitenoise.middleware.WhiteNoiseMiddleware',
